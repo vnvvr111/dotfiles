@@ -1,0 +1,372 @@
+[20:46:38 INFO  SMAPI] SMAPI 4.1.6 with Stardew Valley 1.6.15 build 24356 on Unix 6.14.6.1
+[20:46:38 INFO  SMAPI] Mods go here: ~/.local/share/Steam/steamapps/common/Stardew Valley/Mods
+[20:46:38 TRACE SMAPI] Log started at 2025-05-20T15:46:38 UTC
+[20:46:46 DEBUG SMAPI] Waiting for game to launch...
+[20:46:47 TRACE game] Instance_Initialize() finished, elapsed = '00:00:00.6748912'
+[20:46:47 DEBUG SMAPI] Loading mod metadata...
+[20:46:47 DEBUG SMAPI] Loading mods...
+[20:46:48 TRACE SMAPI]    AutomaticGates (from Mods/AutomaticGates 2.5.4-3109-2-5-4-1710920301/AutomaticGates/AutomaticGates.dll, ID: Rakiin.AutomaticGates, assembly version: 1.0.0)...
+[20:46:48 TRACE SMAPI]    Chests Anywhere (from Mods/Chests Anywhere 1.24.1-518-1-24-1-1719874816/ChestsAnywhere/ChestsAnywhere.dll, ID: Pathoschild.ChestsAnywhere, assembly version: 1.24.1)...
+[20:46:48 TRACE SMAPI]       Rewrote ChestsAnywhere.dll to fix FishPondReward.ItemId field, ShopMenu..ctor method...
+[20:46:48 TRACE SMAPI]    Content Patcher (from Mods/Content Patcher 2.3.0-1915-2-3-0-1719713862/ContentPatcher/ContentPatcher.dll, ID: Pathoschild.ContentPatcher, assembly version: 2.3.0)...
+[20:46:48 TRACE SMAPI]       Rewrote ContentPatcher.dll to fix ArgUtility.TryGet method, ArgUtility.TryGetBool method, ArgUtility.TryGetFloat method, ArgUtility.TryGetInt method, ArgUtility.TryGetPoint method, FishPondReward.ItemId field...
+[20:46:48 TRACE SMAPI]       Broken code in ContentPatcher.dll: reference to StardewValley.ArgUtility.TryGetEnum (no such method), reference to StardewValley.SaveGame.cellarAssignments (field returns StardewValley.Util.SaveablePair`2<System.Int32,System.Int64>[], not StardewValley.SerializableDictionary`2<System.Int32,System.Int64>), reference to StardewValley.SaveGame.farmerFriendships (field returns StardewValley.Util.SaveablePair`2<StardewValley.FarmerPair,StardewValley.Friendship>[], not StardewValley.SerializableDictionary`2<StardewValley.FarmerPair,StardewValley.Friendship>).
+[20:46:48 TRACE SMAPI]    Less Bright Winter Recolor (from Mods/Less Bright Winter Recolor 3.0-16728-3-0-1713980429/Less Bright Winter Recolor 3.0, ID: frozenoj.LBWRecolor) [content pack]...
+[20:46:48 TRACE SMAPI]    Automate (from Mods/Automate 2.2.4-1063-2-2-4-1719713429/Automate/Automate.dll, ID: Pathoschild.Automate, assembly version: 2.2.4)...
+[20:46:49 TRACE SMAPI]       Rewrote Automate.dll to fix Farm.showShipment method, FishPondReward.ItemId field, IslandWest.showShipment method, ShippingBin.showShipment method...
+[20:46:49 TRACE SMAPI]       Rewrote Automate.dll to fix Object.OutputMachine (added missing optional parameters)...
+[20:46:49 TRACE SMAPI]    Console Commands (from Mods/ConsoleCommands/ConsoleCommands.dll, ID: SMAPI.ConsoleCommands, assembly version: 4.1.6)...
+[20:46:49 TRACE SMAPI]    Range Highlight (from Mods/RangeHighlight 4.2.1-6752-4-2-1-1717865929/RangeHighlight/RangeHighlight.dll, ID: jltaylor-us.RangeHighlight, assembly version: 1.0.0)...
+[20:46:49 TRACE SMAPI]    Lookup Anything (from Mods/LookupAnything/LookupAnything.dll, ID: Pathoschild.LookupAnything, assembly version: 1.45.2)...
+[20:46:49 TRACE SMAPI]       Rewrote LookupAnything.dll to fix FishPondReward.ItemId field, FishPondReward.MaxQuantity field, FishPondReward.MinQuantity field, GameLocation.getTileIndexAt method...
+[20:46:49 TRACE SMAPI]       Broken code in LookupAnything.dll: reference to StardewValley.Stats.Values (field returns StardewValley.StatsDictionary`1<System.UInt32>, not StardewValley.SerializableDictionaryWithCaseInsensitiveKeys`1<System.UInt32>).
+[20:46:49 TRACE SMAPI]    UI Info Suite 2 (from Mods/UIInfoSuite2.2.3.4/UIInfoSuite2/UIInfoSuite2.dll, ID: Annosz.UiInfoSuite2, assembly version: 2.3.4)...
+[20:46:49 TRACE SMAPI]       Broken code in UIInfoSuite2.dll: reference to StardewValley.WorldMaps.WorldMapManager.GetPositionData (no such method).
+[20:46:49 TRACE SMAPI]    Mail Framework Mod (from Mods/MailFrameworkMod-v1.18.0-1536-1-18-0-1715282046/MailFrameworkMod/MailFrameworkMod.dll, ID: DIGUS.MailFrameworkMod, assembly version: 1.0.0)...
+[20:46:49 TRACE SMAPI]       Detected game patcher in assembly MailFrameworkMod.dll.
+[20:46:49 TRACE SMAPI]    Generic Mod Config Menu (from Mods/Generic Mod Config 1.12.0-5098-1-12-0-1710863869/GenericModConfigMenu/GenericModConfigMenu.dll, ID: spacechase0.GenericModConfigMenu, assembly version: 1.12.0)...
+[20:46:49 TRACE SMAPI]       Rewrote GenericModConfigMenu.dll to fix IClickableMenu.drawToolTip (added missing optional parameters)...
+[20:46:49 TRACE SMAPI]    Mail Services Mod (from Mods/MailServicesMod-v1.6.0-7842-1-6-0-1717049665/MailServicesMod/MailServicesMod.dll, ID: Digus.MailServicesMod, assembly version: 1.0.0)...
+[20:46:49 TRACE SMAPI]       Detected game patcher in assembly MailServicesMod.dll.
+[20:46:49 TRACE SMAPI]    Convenient Chests (from Mods/ConvenientChests-2196-1-6-6-1712703850/ConvenientChests/ConvenientChests.dll, ID: aEnigma.ConvenientChests, assembly version: 0.0.0)...
+[20:46:50 TRACE SMAPI]    To-Dew (from Mods/ToDew 2.1.3-7409-2-1-3-1719090441/ToDew/ToDew.dll, ID: jltaylor-us.ToDew, assembly version: 1.0.0)...
+[20:46:50 TRACE SMAPI]    TimeSpeed (from Mods/TimeSpeed 2.7.7-169-2-7-7-1710948815/TimeSpeed/TimeSpeed.dll, ID: cantorsdust.TimeSpeed, assembly version: 2.7.7)...
+[20:46:50 TRACE SMAPI]    GMCM Options (from Mods/GMCMOptions 1.6.0-10505-1-6-0-1687710543/GMCMOptions/GMCMOptions.dll, ID: jltaylor-us.GMCMOptions, assembly version: 1.0.0)...
+[20:46:50 TRACE SMAPI]       Rewrote GMCMOptions.dll to fix Farmer.changePants method, Farmer.changePantStyle method, Farmer.changeShirt method, IClickableMenu.drawToolTip method...
+[20:46:50 TRACE SMAPI]       Detected game patcher in assembly GMCMOptions.dll.
+[20:46:50 TRACE SMAPI]    Save Backup (from Mods/SaveBackup/SaveBackup.dll, ID: SMAPI.SaveBackup, assembly version: 4.1.6)...
+[20:46:50 TRACE SMAPI]       Detected direct console access (System.Console type) in assembly SaveBackup.dll.
+[20:46:50 INFO  SMAPI] Loaded 13 mods:
+[20:46:50 INFO  SMAPI]    Automate 2.2.4 by Pathoschild | Lets you automate crafting machines, fruit trees, and more by connecting them to chests.
+[20:46:50 INFO  SMAPI]    AutomaticGates 2.5.4 by Rakiin aKa ScheKaa | Opens and closes gates automatically
+[20:46:50 INFO  SMAPI]    Chests Anywhere 1.24.1 by Pathoschild | Access your chests from anywhere and organize them your way.
+[20:46:50 INFO  SMAPI]    Console Commands 4.1.6 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
+[20:46:50 INFO  SMAPI]    Convenient Chests 1.6.6 by aEnigma | Makes your life easier: Allows crafting from and auto-stashing to chests.
+[20:46:50 INFO  SMAPI]    Generic Mod Config Menu 1.12.0 by spacechase0 | Adds an in-game UI to edit other mods' config options (for mods which support it).
+[20:46:50 INFO  SMAPI]    GMCM Options 1.6.0 by Jamie Taylor | Provides complex Option types for Generic Mod Config Menu
+[20:46:50 INFO  SMAPI]    Mail Framework Mod 1.18.0 by Digus | Utility classes to send mail in the game.
+[20:46:50 INFO  SMAPI]    Mail Services Mod 1.6.0 by Digus | Mail services to send and receive item using the mailbox.
+[20:46:50 INFO  SMAPI]    Range Highlight 4.2.1 by Jamie Taylor | Highlights ranges for scarecrows, sprinklers, etc.
+[20:46:50 INFO  SMAPI]    Save Backup 4.1.6 by SMAPI | Automatically backs up all your saves once per day into its folder.
+[20:46:50 INFO  SMAPI]    TimeSpeed 2.7.7 by cantorsdust and Pathoschild | Lets you control the flow of time in the game: speed it up, slow it down, or freeze it altogether.
+[20:46:50 INFO  SMAPI]    To-Dew 2.1.3 by Jamie Taylor | An in-game To-do list
+
+[20:46:50 INFO  SMAPI] Loaded 1 content packs:
+[20:46:50 INFO  SMAPI]    Less Bright Winter Recolor 3.0.0 by frozenoj | for  | A recolor mod for winter
+
+[20:46:50 ERROR SMAPI]    Skipped mods
+[20:46:50 ERROR SMAPI]    --------------------------------------------------
+[20:46:50 ERROR SMAPI]       These mods could not be added to your game.
+
+[20:46:50 ERROR SMAPI]       - Content Patcher 2.3.0 because it's no longer compatible. Please check for a new version at https://www.nexusmods.com/stardewvalley/mods/1915 or https://smapi.io/mods
+[20:46:50 ERROR SMAPI]       - Lookup Anything 1.45.2 because it's no longer compatible. Please check for a new version at https://smapi.io/mods
+[20:46:50 ERROR SMAPI]       - UI Info Suite 2 2.3.4 because it's no longer compatible. Please check for a new version at https://smapi.io/mods
+
+[20:46:50 INFO  SMAPI]    Patched game code
+[20:46:50 INFO  SMAPI]    --------------------------------------------------
+[20:46:50 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
+[20:46:50 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
+
+[20:46:50 INFO  SMAPI]       - GMCM Options
+[20:46:50 INFO  SMAPI]       - Mail Framework Mod
+[20:46:50 INFO  SMAPI]       - Mail Services Mod
+
+[20:46:50 TRACE SMAPI]    Direct console access
+[20:46:50 TRACE SMAPI]    --------------------------------------------------
+[20:46:50 TRACE SMAPI]       These mods access the SMAPI console window directly. This is more fragile, and their output may not
+[20:46:50 TRACE SMAPI]       be logged by SMAPI.
+
+[20:46:50 TRACE SMAPI]       - Save Backup
+
+[20:46:50 DEBUG SMAPI] Launching mods...
+[20:46:50 TRACE SMAPI]    Found mod-provided API (Pathoschild.Stardew.ChestsAnywhere.Framework.ChestsAnywhereApi).
+[20:46:50 TRACE SMAPI]    Found mod-provided API (Pathoschild.Stardew.Automate.Framework.AutomateAPI).
+[20:46:51 TRACE SMAPI]    Found mod-provided API (RangeHighlight.RangeHighlightAPI).
+[20:46:51 TRACE SMAPI]    Found mod-provided API (MailFrameworkMod.Api.MailFrameworkModApi).
+[20:46:51 TRACE SMAPI]    Found mod-provided API (ConvenientChests.ModAPI).
+[20:46:52 TRACE GMCM Options] TooltipHelper installed pre and postfix patches on GenericModConfigMenu.Framework.SpecificModConfigMenu:draw
+[20:46:52 DEBUG SMAPI] Mods loaded and ready!
+[20:46:52 TRACE SMAPI] Checking for updates...
+[20:46:52 TRACE Save Backup] Backed up to /home/vnvvr1/.local/share/Steam/steamapps/common/Stardew Valley/save-backups/2025-05-20 - SMAPI 4.1.6 with Stardew Valley 1.6.15.zip.
+[20:46:53 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[20:46:53 TRACE game] Instance_LoadContent() finished, elapsed = '00:00:05.8770954'
+[20:46:53 TRACE game] Steam logged on: True
+[20:46:53 TRACE game] Initializing GalaxySDK
+[20:46:53 TRACE game] Requesting Steam app ticket
+[20:46:53 ERROR game] Error initializing the Galaxy API.
+TypeInitializationException: The type initializer for 'Galaxy.Api.GalaxyInstancePINVOKE' threw an exception.
+ ---> TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception.
+ ---> DllNotFoundException: Unable to load shared library 'GalaxyCSharpGlue' or one of its dependencies. In order to help diagnose loading problems, consider setting the LD_DEBUG environment variable: libGalaxyCSharpGlue: cannot open shared object file: No such file or directory
+   at Galaxy.Api.GalaxyInstancePINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_GalaxyInstance(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at Galaxy.Api.GalaxyInstancePINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at Galaxy.Api.GalaxyInstancePINVOKE.SWIGExceptionHelper..ctor()
+   at Galaxy.Api.GalaxyInstancePINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at Galaxy.Api.GalaxyInstancePINVOKE.new_InitParams__SWIG_3(String jarg1, String jarg2, String jarg3)
+   at StardewValley.SDKs.Steam.SteamHelper.Initialize() in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\SDKs\Steam\SteamHelper.cs:line 90
+[20:46:53 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
+[20:46:53 ALERT SMAPI] You can update SMAPI to 4.2.1: https://smapi.io
+[20:46:53 TRACE SMAPI]    Checking for updates to 15 mods...
+[20:46:53 TRACE Chests Anywhere] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:46:53 TRACE Range Highlight] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:46:53 TRACE Range Highlight] Accessed mod-provided API (GMCMOptions.Framework.API) for GMCM Options.
+[20:46:53 TRACE GMCM Options] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+
+[20:46:53 ALERT SMAPI] You can update 11 mods:
+[20:46:53 ALERT SMAPI]    Automate 2.3.4: https://www.nexusmods.com/stardewvalley/mods/1063 (you have 2.2.4)
+[20:46:53 ALERT SMAPI]    Chests Anywhere 1.27.0: https://www.nexusmods.com/stardewvalley/mods/518 (you have 1.24.1)
+[20:46:53 ALERT SMAPI]    Content Patcher 2.6.1: https://www.nexusmods.com/stardewvalley/mods/1915 (you have 2.3.0)
+[20:46:53 ALERT SMAPI]    Generic Mod Config Menu 1.14.1: https://www.nexusmods.com/stardewvalley/mods/5098 (you have 1.12.0)
+[20:46:53 ALERT SMAPI]    GMCM Options 2.0.0: https://www.nexusmods.com/stardewvalley/mods/10505 (you have 1.6.0)
+[20:46:53 ALERT SMAPI]    Lookup Anything 1.50.0: https://www.nexusmods.com/stardewvalley/mods/541 (you have 1.45.2)
+[20:46:53 ALERT SMAPI]    Mail Framework Mod 1.20.0: https://www.nexusmods.com/stardewvalley/mods/1536 (you have 1.18.0)
+[20:46:53 ALERT SMAPI]    Mail Services Mod 1.6.2: https://www.nexusmods.com/stardewvalley/mods/7842 (you have 1.6.0)
+[20:46:53 ALERT SMAPI]    TimeSpeed 2.7.10: https://www.nexusmods.com/stardewvalley/mods/169 (you have 2.7.7)
+[20:46:53 ALERT SMAPI]    To-Dew 2.4.1: https://www.nexusmods.com/stardewvalley/mods/7409 (you have 2.1.3)
+[20:46:53 ALERT SMAPI]    UI Info Suite 2 2.3.7: https://github.com/Annosz/UIInfoSuite2/releases (you have 2.3.4)
+[20:46:53 TRACE Mail Services Mod] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:46:54 TRACE Convenient Chests] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:46:54 TRACE To-Dew] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:46:54 TRACE To-Dew] Accessed mod-provided API (GMCMOptions.Framework.API) for GMCM Options.
+[20:46:54 TRACE TimeSpeed] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:46:54 TRACE game] Signing into GalaxySDK
+[20:46:54 ERROR game] Galaxy SignInSteam failed with an exception:
+TypeInitializationException: The type initializer for 'Galaxy.Api.GalaxyInstance' threw an exception.
+ ---> TypeInitializationException: The type initializer for 'CustomExceptionHelper' threw an exception.
+ ---> DllNotFoundException: Unable to load shared library 'GalaxyCSharpGlue' or one of its dependencies. In order to help diagnose loading problems, consider setting the LD_DEBUG environment variable: libGalaxyCSharpGlue: cannot open shared object file: No such file or directory
+   at Galaxy.Api.GalaxyInstance.CustomExceptionHelper.CustomExceptionRegisterCallback(CustomExceptionDelegate customCallback)
+   at Galaxy.Api.GalaxyInstance.CustomExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at Galaxy.Api.GalaxyInstance.CustomExceptionHelper..ctor()
+   at Galaxy.Api.GalaxyInstance..cctor()
+   --- End of inner exception stack trace ---
+   at Galaxy.Api.GalaxyInstance.User()
+   at StardewValley.SDKs.Steam.SteamHelper.onEncryptedAppTicketResponse(EncryptedAppTicketResponse_t response, Boolean ioFailure) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\SDKs\Steam\SteamHelper.cs:line 251
+[20:46:54 TRACE game] LocalizedContentManager.CurrentLanguageCode CHANGING from 'en' to 'ru'
+[20:46:54 TRACE game] LocalizedContentManager.CurrentLanguageCode CHANGED from 'en' to 'ru'
+[20:46:54 TRACE SMAPI] Context: locale set to ru (ru-RU).
+[20:46:54 TRACE SMAPI] Generic Mod Config Menu loaded asset 'Mods/GenericModConfigMenu/ConfigButton'.
+[20:46:54 TRACE Automate] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[20:46:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1280 Height:720}
+[20:46:54 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[20:47:07 TRACE SMAPI] Generic Mod Config Menu loaded asset 'Mods/GenericModConfigMenu/KeyboardButton'.
+[20:47:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[20:47:12 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[20:47:16 TRACE SMAPI] Synchronizing 'Find Save Games' task...
+[20:47:17 TRACE SMAPI]    task complete.
+[20:47:17 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[20:47:17 TRACE game] Successfully loaded ContentHashes.json containing 3560 file(s);
+[20:47:17 TRACE game] EnsureManifestInitialized() finished, elapsed = '00:00:00.0207842'
+[20:47:20 TRACE game] gameMode was 'titleScreenGameMode (0)', set to 'loadingMode (6)'.
+[20:47:20 TRACE SMAPI] Game loader synchronizing...
+[20:47:20 TRACE game] getLoadEnumerator('farm16_370888780')
+[20:47:20 TRACE SMAPI] Synchronizing 'Load_ReadSave' task...
+[20:47:25 TRACE SMAPI]    task complete.
+[20:47:25 TRACE SMAPI] Synchronizing 'Load_LoadForNewGame' task...
+[20:47:27 TRACE SMAPI]    task complete.
+[20:47:27 TRACE SMAPI] Synchronizing 'Load_Farmer' task...
+[20:47:27 TRACE SMAPI]    task complete.
+[20:47:27 TRACE SMAPI] Synchronizing 'Load_Locations' task...
+[20:47:27 WARN  game] Ignored unknown location 'Custom_AuroraVineyardRefurbished' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_AuroraVineyardCellarRefurbished' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrandpasShedRuins' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrandpasShed' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_TownEast' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_FakeEnchantedGrove' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_FakeEnchantedGrove2' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_WillyRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_MarnieShed' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_AndyHouse' in save data, including NPC 'Andy'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_AndyCellar' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SusanHouse' in save data, including NPC 'Susan'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_JenkinsHouse' in save data, including NPCs 'Olivia', 'Victor'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_OliviaCellar' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SophiaHouse' in save data, including NPC 'Sophia'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SophiaCellar' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_CrimsonBadlandsMap' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_MovieTheaterScreen_ClaireEvent' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_CastleVillage_DayEnd_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_AuroraVineyardPictureMap' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_StardustFarmPictureMap' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GaldoranVoid' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Claire_WarpRoom' in save data, including NPC 'Claire'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Martin_WarpRoom' in save data, including NPC 'Martin'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Camilla_WarpRoom' in save data, including NPC 'Camilla'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Alesia_WarpRoom' in save data, including NPC 'Alesia'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Isaac_WarpRoom' in save data, including NPC 'Isaac'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Lance_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Jadu_WarpRoom' in save data, including NPC 'Jadu'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Apples_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Peaches_WarpRoom' in save data, including NPC 'Peaches'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Charlie_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Morgan_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Scarlett_WarpRoom' in save data, including NPC 'ScarlettFake'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Sandy_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ApplesRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GunthersRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Countryside_BusStop_Bus' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Countryside_BusStop_NoBus' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Countryside_ClaireHouse' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ClaireHouse' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_JojaEmporium' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GuntherExpedition1' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GuntherExpedition2' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrampletonFields_Small' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_BusStop_NoBus' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SakuraVineyardCottageInterior' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Highway' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Sawyer_WarpRoom' in save data, including NPC 'Sawyer'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Jolyne_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Edmund_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Gale_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Gertrude_WarpRoom' in save data, including NPC 'Gertrude'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Brock_WarpRoom' in save data, including NPC 'Brock'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Cordelia_WarpRoom' in save data, including NPC 'Cordelia'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Freya_WarpRoom' in save data, including NPC 'Freya'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Cassandra_WarpRoom' in save data, including NPC 'Cassandra'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Emin_WarpRoom' in save data, including NPC 'Emin'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Brianna_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Drake_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_HighlandsDwarf_WarpRoom' in save data, including NPC 'HighlandsDwarf'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_MorrisHouse' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ForestWestOld' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_LanceSecretWarp' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Krobus_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_VoidDen' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ScarlettHouse' in save data, including NPCs 'HankSVE', 'Treyvon'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_HanksGarage' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_WoodsCompat' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_VictorSummit' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_AuroraVineyard' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_DayEnd_WarpRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Atlantis' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_DesertRailway' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_EnchantedGrove' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_FirstSlashGuestRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrampletonCoast' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrampletonTrainStation' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrenvilleFalls' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_HighlandsCavernPrison' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_HighlandsCavernPrisonEvent' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_IridiumQuarry' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_JojaPetStore' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SakuraVineyard' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SakuraVineyardCellar' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SakuraVineyardCottage' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SakuraVineyardDiningRoom' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SpriteSpringCave' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_TreasureCave' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Void' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ZCCC_Entrance' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ZCCC_FoodCourt' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ZCCC_MainHall' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ZCCC_Stage' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ZCCC_VendorFloor' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ZuzuCityStreet' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_HighlandsOutpost' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_CastleVillageOutpost' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_FirstSlashGuild' in save data, including NPCs 'Brianna', 'Jolyne'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_FirstSlashHallway' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_WizardBasement' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ZCCC_Courtyard' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SVESummit' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_AdventurerSummit' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_BlueMoonVineyard' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ForbiddenMaze' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_HenchmanBackyard' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_HenchmanHouse' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_DinoIsland_South' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_DinoIsland_North' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_CrimsonBadlands' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_FableReef' in save data, including NPCs 'Drake', 'Edmund', 'Gale'.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrandpasShedGreenhouse' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ForestWest' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Garden' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrampletonSuburbs' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrampletonSuburbsTrainStation' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrampletonSuburbsOutskirts' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GoGoatRanch' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GoGoatRanch_Interior' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_GrandpasShedOutside' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_Highlands' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_HighlandsCavern' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_DiamondCavern' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_JunimoWoods' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_MorrisProperty' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_ShearwaterBridge' in save data.
+[20:47:27 WARN  game] Ignored unknown location 'Custom_SpriteSpring2' in save data.
+[20:47:27 WARN  game] NPC MorrisTod can't load portraits from 'Portraits/MorrisTod': Microsoft.Xna.Framework.Content.ContentLoadException: The content file was not found.
+ ---> System.IO.FileNotFoundException: Could not find file '/home/vnvvr1/.local/share/Steam/steamapps/common/Stardew Valley/Content/Portraits/MorrisTod.xnb'.
+File name: '/home/vnvvr1/.local/share/Steam/steamapps/common/Stardew Valley/Content/Portraits/MorrisTod.xnb'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at Microsoft.Xna.Framework.TitleContainer.PlatformOpenStream(String safeName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Platform\TitleContainer.Desktop.cs:line 29
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\TitleContainer.cs:line 37
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 272
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 289
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 319
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 255
+   at StardewModdingAPI.Framework.ContentManagers.BaseContentManager.RawLoad[T](IAssetName assetName, Boolean useCache) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/BaseContentManager.cs:line 340
+   at StardewModdingAPI.Framework.ContentManagers.GameContentManager.<>c__DisplayClass6_0`1.<LoadExact>b__0() in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/GameContentManager.cs:line 127
+   at StardewModdingAPI.Framework.Utilities.ContextHash`1.Track[TResult](T key, Func`1 action) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/Utilities/ContextHash.cs:line 53
+   at StardewModdingAPI.Framework.ContentManagers.GameContentManager.LoadExact[T](IAssetName assetName, Boolean useCache)
+   at StardewModdingAPI.Framework.ContentManagers.BaseContentManager.LoadLocalized[T](IAssetName assetName, LanguageCode language, Boolean useCache) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/BaseContentManager.cs:line 190
+   at StardewValley.NPC.TryLoadPortraits(String assetName, String& error, LocalizedContentManager content) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\NPC.cs:line 1058.
+[20:47:28 WARN  game] NPC GuntherSilvian can't load portraits from 'Portraits/GuntherSilvian': Microsoft.Xna.Framework.Content.ContentLoadException: The content file was not found.
+ ---> System.IO.FileNotFoundException: Could not find file '/home/vnvvr1/.local/share/Steam/steamapps/common/Stardew Valley/Content/Portraits/GuntherSilvian.xnb'.
+File name: '/home/vnvvr1/.local/share/Steam/steamapps/common/Stardew Valley/Content/Portraits/GuntherSilvian.xnb'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at Microsoft.Xna.Framework.TitleContainer.PlatformOpenStream(String safeName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Platform\TitleContainer.Desktop.cs:line 29
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\TitleContainer.cs:line 37
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 272
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 289
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 319
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 255
+   at StardewModdingAPI.Framework.ContentManagers.BaseContentManager.RawLoad[T](IAssetName assetName, Boolean useCache) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/BaseContentManager.cs:line 340
+   at StardewModdingAPI.Framework.ContentManagers.GameContentManager.<>c__DisplayClass6_0`1.<LoadExact>b__0() in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/GameContentManager.cs:line 127
+   at StardewModdingAPI.Framework.Utilities.ContextHash`1.Track[TResult](T key, Func`1 action) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/Utilities/ContextHash.cs:line 53
+   at StardewModdingAPI.Framework.ContentManagers.GameContentManager.LoadExact[T](IAssetName assetName, Boolean useCache)
+   at StardewModdingAPI.Framework.ContentManagers.BaseContentManager.LoadLocalized[T](IAssetName assetName, LanguageCode language, Boolean useCache) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/BaseContentManager.cs:line 190
+   at StardewValley.NPC.TryLoadPortraits(String assetName, String& error, LocalizedContentManager content) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\NPC.cs:line 1058.
+[20:47:28 WARN  game] NPC MarlonFay can't load portraits from 'Portraits/MarlonFay': Microsoft.Xna.Framework.Content.ContentLoadException: The content file was not found.
+ ---> System.IO.FileNotFoundException: Could not find file '/home/vnvvr1/.local/share/Steam/steamapps/common/Stardew Valley/Content/Portraits/MarlonFay.xnb'.
+File name: '/home/vnvvr1/.local/share/Steam/steamapps/common/Stardew Valley/Content/Portraits/MarlonFay.xnb'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at Microsoft.Xna.Framework.TitleContainer.PlatformOpenStream(String safeName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Platform\TitleContainer.Desktop.cs:line 29
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\TitleContainer.cs:line 37
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 272
+   --- End of inner exception stack trace ---
+   at Microsoft.Xna.Framework.Content.ContentManager.OpenStream(String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 289
+   at Microsoft.Xna.Framework.Content.ContentManager.ReadAsset[T](String assetName, Action`1 recordDisposableObject) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 319
+   at Microsoft.Xna.Framework.Content.ContentManager.Load[T](String assetName) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Content\ContentManager.cs:line 255
+   at StardewModdingAPI.Framework.ContentManagers.BaseContentManager.RawLoad[T](IAssetName assetName, Boolean useCache) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/BaseContentManager.cs:line 340
+   at StardewModdingAPI.Framework.ContentManagers.GameContentManager.<>c__DisplayClass6_0`1.<LoadExact>b__0() in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/GameContentManager.cs:line 127
+   at StardewModdingAPI.Framework.Utilities.ContextHash`1.Track[TResult](T key, Func`1 action) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/Utilities/ContextHash.cs:line 53
+   at StardewModdingAPI.Framework.ContentManagers.GameContentManager.LoadExact[T](IAssetName assetName, Boolean useCache)
+   at StardewModdingAPI.Framework.ContentManagers.BaseContentManager.LoadLocalized[T](IAssetName assetName, LanguageCode language, Boolean useCache) in /home/pathoschild/git/SMAPI/src/SMAPI/Framework/ContentManagers/BaseContentManager.cs:line 190
+   at StardewValley.NPC.TryLoadPortraits(String assetName, String& error, LocalizedContentManager content) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\NPC.cs:line 1058.
+[20:47:28 TRACE SMAPI]    task complete.
+[20:47:28 TRACE game] gameMode was 'loadingMode (6)', set to 'playingGameMode (3)'.
+[20:47:29 WARN  game] Removed broken NPC 'MorrisTod' in Town: villager with no data or sprites.
+[20:47:29 WARN  game] Removed broken NPC 'GuntherSilvian' in ArchaeologyHouse: villager with no data or sprites.
+[20:47:29 WARN  game] Removed broken NPC 'MarlonFay' in Railroad: villager with no data or sprites.
+[20:47:29 TRACE game] getLoadEnumerator() exited, elapsed = '00:00:08.3922546'
+[20:47:29 TRACE game] setGameMode( 'playingGameMode (3)' )
+[20:47:29 TRACE SMAPI] Game loader done.
+[20:47:29 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[20:47:30 TRACE SMAPI] Context: loaded save 'farm16_370888780', starting winter 14 Y3, locale set to ru-RU. Single-player.
+[20:47:30 TRACE Convenient Chests] Register
+[20:47:30 TRACE To-Dew] Accessed mod-provided API (ToDew.ToDoApiImpl) for To-Dew.
+[20:47:30 TRACE Mail Framework Mod] Requested cache invalidation for 'Data/mail'.
+[20:47:30 TRACE SMAPI] Invalidated 0 cache entries.
