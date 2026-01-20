@@ -100,6 +100,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+
+alias dots-sync='git add . && git commit -m "update dots" && git push origin main'
+
+
+
  if [[ -z $DISPLAY && $TTY = /dev/tty1 ]]; then
   export MOZ_ENABLE_WAYLAND=1
   exec sway
