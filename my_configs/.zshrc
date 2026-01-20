@@ -102,6 +102,17 @@ source $ZSH/oh-my-zsh.sh
 #
 
 alias dots-sync='git add . && git commit -m "update dots" && git push origin main'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../../'
+function gpush() {
+  git add .
+  git commit -m "$1"
+  git push origin main
+}
 
 
 

@@ -171,24 +171,24 @@
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
-        "on-click": "pavucontrol"
+    "format": "{volume}% {icon} {format_source}",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": "󰂲 {icon} {format_source}",
+    "format-muted": "󰝟 {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+        "headphone": "",
+        "hands-free": "󱡒",
+        "headset": "󰋎",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
     },
+    "on-click": "pavucontrol"
+}
+  ,
     "custom/media": {
         "format": "{icon} {}",
         "return-type": "json",
@@ -201,7 +201,7 @@
     "format": "{}",
     "on-click": "swaymsg input type:keyboard xkb_switch_layout next"
     "max-length": 5
-        },
+},
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
