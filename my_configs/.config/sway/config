@@ -260,8 +260,9 @@ exec dunst
 #bindsym $mod+Shift+o systemctl shutdown now
 
 # Выключение/Перезагрузка	
-	#bindsym --to-code $mod+Ctrl+r exec reboot
+	#bindsym --to-code $mod+Ctrl+s exec suspend
 	bindsym --to-code $mod+Ctrl+p exec poweroff
+  bindsym $mod+Shift+s exec systemctl suspend
 
 	#bindsym --to-code $mod+Ctrl+h exec swayidle
 
